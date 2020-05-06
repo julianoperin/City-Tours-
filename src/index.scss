@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$mainBlack: #333;
+$mainGreen: #82b340;
+$mainWhite: #fff;
+$mainGrey: #ececec;
+
+body {
+  font-family: "Cormorant Garamond", serif;
+  background: $mainGrey;
+  color: $mainGreen;
+}
