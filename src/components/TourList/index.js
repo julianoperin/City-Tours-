@@ -3,6 +3,9 @@ import "./TourList.scss";
 import Tour from "../Tour/Tour";
 
 export default class TourList extends Component {
+  state = {
+    tours: []
+  };
   render() {
     return (
       <section className="tourList">
